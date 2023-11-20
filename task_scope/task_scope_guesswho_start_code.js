@@ -13,23 +13,28 @@
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
-// // Prediction: 
+// Prediction: 
+// Joseph
 
 // // GUESS 2 ///////////////////
 
-let firstName = "Donna";
+// let firstName = "Donna";
 
-const guessWho = function () {
-  const glasses = false;
-  let firstName = "Liz";
-  return `Guess Who is ${firstName}.`;
-};
+// const guessWho = function () {
+//   const glasses = false;
+//   let firstName = "Liz";
+//   return `Guess Who is ${firstName}.`;
+// };
 
-const guess1 = guessWho();
-console.log("guess1: ", guess1);
+// const guess1 = guessWho();
+// console.log("guess1: ", guess1);
 
-const guess2 = `Guess Who is ${firstName}`;
-console.log("guess2: ", guess2);
+// const guess2 = `Guess Who is ${firstName}`;
+// console.log("guess2: ", guess2);
+
+// prediction
+// guess1 = Liz
+// guess2 = Donnna
 
 // // GUESS 3 ///////////////////
 
@@ -62,6 +67,9 @@ console.log("guess2: ", guess2);
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
 
+// prediction
+// guess = Chris
+
 // // GUESS 4 ///////////////////
 
 // let firstName = "Gail";
@@ -77,25 +85,31 @@ console.log("guess2: ", guess2);
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
 
-// // GUESS 5 ///////////////////
+// prediction
+// guess = Gail
 
-// const guess = {
-//   hair_colour: "blonde",
-//   eye_colour: "brown",
-//   hat: false,
-//   glasses: false,
-//   firstName: "Jennifer",
-// };
+// GUESS 5 ///////////////////
 
-// const changeGuess = function () {
-//   guess = {
-//     hair_colour: "blonde",
-//     eye_colour: "blue",
-//     hat: false,
-//     glasses: false,
-//     firstName: "Kyle",
-//   };
-// };
+const guess = {
+  hair_colour: "blonde",
+  eye_colour: "brown",
+  hat: false,
+  glasses: false,
+  firstName: "Jennifer",
+};
 
-// changeGuess();
-// console.log(`Guess Who is ${guess.firstName}`);
+const changeGuess = function () {
+  guess = {
+    hair_colour: "blonde",
+    eye_colour: "blue",
+    hat: false,
+    glasses: false,
+    firstName: "Kyle",
+  };
+};
+
+changeGuess();
+console.log(`Guess Who is ${guess.firstName}`);
+
+// prediction
+// guess = Jennifer
